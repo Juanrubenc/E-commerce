@@ -50,6 +50,9 @@ body{
         align-items: flex-end;
         
     }
+    .position-sticky{
+        height: fit-content;
+    }
 }
     
     @media only screen and ((min-width: 500px) and (max-width:799px)){
@@ -69,7 +72,7 @@ body{
 
     @media (min-width: 1025px) {
         .h-custom {
-        height: 100vh !important;
+        height: 120vh !important;
         }
         .position-sticky{
             top:0;
